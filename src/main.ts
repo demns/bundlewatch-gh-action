@@ -34,7 +34,7 @@ async function run() {
     }
 
     console.log(`Running: bundlewatch`);
-    await exec.exec(`npx bundlewatch`, undefined);
+    await exec.exec(`npx bundlewatch --normalize hash`, undefined);
   } catch (error) {
     core.setFailed(error.message);
   }
