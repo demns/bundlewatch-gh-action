@@ -1,4 +1,4 @@
-name: 'Bundlewatch Github Action'
+name: 'Bundlewatch Github Action (fork)'
 description: 'Run bundlewatch against your PR to keep those bundles in check! Update your package.json according to bundlewatch config'
 author: 'Jacky Efendi'
 inputs:
